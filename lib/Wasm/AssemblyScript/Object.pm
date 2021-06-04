@@ -106,3 +106,5 @@ sub new {
 
     return bless [ $bufref, $ascript, $membase, $ptr ], $class;
 }
+
+1;
